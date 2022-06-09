@@ -61,7 +61,7 @@ a {
 .box {
     margin: 5px;
     padding: 5px;
-   width: 400px;
+   max-width: 400px;
    height: auto;
    text-align: center;
 }
@@ -84,7 +84,7 @@ a {
     background-color: rgb(221, 185, 24);
     height: 100%;
     padding: 0 10px 0 10px;
-    font-size: 50px;
+    font-size: 30px;
 }
 .contentheader {
     margin: 10px;

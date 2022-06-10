@@ -40,6 +40,7 @@ a {
     max-width: 600px;
     padding: 50px;
     margin: 24px;
+    text-align: center;
 }  
 .bannertitle {
     font-size: 56px;
@@ -65,7 +66,6 @@ a {
     justify-content: center;
     margin: 15px;
     flex-wrap: wrap;
-    
 }
 .box {
     margin: 5px;
@@ -107,4 +107,62 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+/* Specific to Book-Now Page */
+.year {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.rates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.seasons {
+    display: flex;
+    flex-direction: row;
+}
+.season {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.seasontitle {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.rules {
+    max-width: 450px;
+    
+}
+.policy {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #1a2c46;
+    margin-bottom: 5px;
+}
+.subrulet1 {
+    font-style: italic;
+    color: #1a2c46;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.subrulet2 {
+    color: #1a2c46;
+    margin-bottom: 5px;
+}
+.subrulet3 {
+    font-style: italic;
+    color: #1a2c46;
 }

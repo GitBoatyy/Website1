@@ -11,7 +11,7 @@ a {
     color: white;
 }
 .header {
-    background-color: #1F2937;
+    background-color: #121820;
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
@@ -110,6 +110,15 @@ img {
 }
 
 /* Specific to Book-Now Page */
+.landingtitle {
+    padding: 40px;
+}
+.background {
+    background-image: url(../images/rvparkhero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 .year {
     display: flex;
     justify-content: center;
@@ -126,6 +135,21 @@ img {
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: 23px;
+
+}
+.rates1 {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    background-color:  #1f293750;
+    height: 100vh;
 }
 .seasons {
     display: flex;

@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    background-color: #202835;
 }
 a {
     text-decoration: none;
@@ -116,9 +116,6 @@ img {
 }
 
 /* Specific to Book-Now Page */
-body {
-    background-color: #202835;
-}
 .landingtitle {
     padding: 40px;
     
@@ -129,7 +126,6 @@ body {
     background-size: cover;
     height: 100vh;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     padding: 10px;
 }
@@ -204,7 +200,7 @@ body {
     color: #26518f;
 }
 .calendar {
-height: 600px;
+height: 100%;
 width:100%;
 margin: 5px;
 }

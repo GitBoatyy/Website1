@@ -29,7 +29,7 @@ a {
 .linktl {
     font-size: 20px;
 }
-.background1 {
+.background {
     background-image: url(../images/Background3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,11 +123,14 @@ body {
     padding: 40px;
     
 }
-.background {
+.background1 {
     background-image: url(../images/Background3.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .year {
     display: flex;
@@ -198,4 +201,11 @@ body {
 .subrulet3 {
     font-style: italic;
     color: #26518f;
+}
+.calendar {
+height: 100%;
+width:100%;
+}
+.bnpage {
+
 }

@@ -14,7 +14,7 @@ a {
     background-color: #121820;
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-left: 24px;
 }
@@ -29,12 +29,18 @@ a {
 .linktl {
     font-size: 20px;
 }
+.background1 {
+    background-image: url(../images/Background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 .banner {
-    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 12%;
 }
 .bannercontent {
     max-width: 600px;
@@ -110,11 +116,15 @@ img {
 }
 
 /* Specific to Book-Now Page */
+body {
+    background-color: #202835;
+}
 .landingtitle {
     padding: 40px;
+    
 }
 .background {
-    background-image: url(../images/rvparkhero.jpg);
+    background-image: url(../images/Background3.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -138,18 +148,17 @@ img {
     color: white;
     font-weight: 800;
     font-size: 23px;
-
 }
 .rates1 {
     display: flex;
     flex-direction: column;
-    
     text-align: center;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     background-color:  #1f293750;
     height: 100vh;
+    padding-top: 12%;
 }
 .seasons {
     display: flex;
@@ -173,20 +182,20 @@ img {
 .policy {
     text-decoration: underline;
     font-weight: bold;
-    color: #1a2c46;
+    color: #26518f;
     margin-bottom: 5px;
 }
 .subrulet1 {
     font-style: italic;
-    color: #1a2c46;
+    color: #26518f;
     text-decoration: underline;
     margin-bottom: 5px;
 }
 .subrulet2 {
-    color: #1a2c46;
-    margin-bottom: 5px;
+    color: #26518f;
+        margin-bottom: 5px;
 }
 .subrulet3 {
     font-style: italic;
-    color: #1a2c46;
+    color: #26518f;
 }

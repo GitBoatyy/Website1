@@ -131,6 +131,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 10px;
 }
 .year {
     display: flex;
@@ -205,6 +206,7 @@ body {
 .calendar {
 height: 600px;
 width:100%;
+margin: 5px;
 }
 .bnpage {
 

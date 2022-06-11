@@ -226,3 +226,72 @@ margin: 5px;
     flex-wrap: wrap;
     gap: 10px;
 }
+/* For About-Us page only */
+.background3 {
+    background-image: url(../images/Background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #e5e7eb;
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+}
+.bannertitle2 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #F9FAf8;
+    margin-top: 270px;
+}
+.picturestatement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.statement {
+    max-width: 600px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.st1 {
+    margin-bottom: 10px;
+}
+.substatement {
+    justify-content: center;
+    align-items: center;
+    max-width: 1240px;
+}
+.ssttitle {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.sst1 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.substatement2 {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.contentheader2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}

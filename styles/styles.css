@@ -40,7 +40,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 12%;
+    margin-top: 10%;
 }
 .bannercontent {
     max-width: 600px;
@@ -127,6 +127,7 @@ img {
     height: 100vh;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 .year {
@@ -204,8 +205,20 @@ height: 100%;
 width:100%;
 margin: 5px;
 }
-.bnpage {
-
+.contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: 23px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    height: auto;
 }
 /* For Pictures page only */
 .background2 {
@@ -225,6 +238,7 @@ margin: 5px;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: 15%;
 }
 /* For About-Us page only */
 .background3 {
@@ -242,12 +256,14 @@ margin: 5px;
     0 0.07em black,
     -0.07em 0 black,
     0 -0.07em black;
+    
 }
 .bannertitle2 {
     font-size: 56px;
     font-weight: bold;
     color: #F9FAf8;
     margin-top: 270px;
+    
 }
 .picturestatement {
     display: flex;
@@ -289,6 +305,7 @@ margin: 5px;
 .substatement2 {
     display: flex;
     flex: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
